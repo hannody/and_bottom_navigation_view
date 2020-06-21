@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+        showBadge(20, R.id.cloud)
     }
 
 
@@ -31,5 +32,14 @@ class MainActivity : AppCompatActivity() {
     apply{
         replace(R.id.flFragment, frag)
         commit()
+    }
+
+    private fun showBadge(value:Int, menuItemID:Int){
+        bottomNavigationView.getOrCreateBadge(menuItemID).apply {
+            if (value > 0) {
+                number = value
+                isVisible = true
+            }
+        }
     }
 }
