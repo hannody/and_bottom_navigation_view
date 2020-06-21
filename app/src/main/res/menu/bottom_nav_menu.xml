@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/games"
+        android:title="@string/your_games"
+        android:icon="@drawable/ic_games"/>
+    <item
+        android:id="@+id/hd"
+        android:title="@string/hd_games"
+        android:icon="@drawable/ic_hd"/>
+    <item
+        android:id="@+id/f_4K"
+        android:title="@string/_4k_games"
+        android:icon="@drawable/ic_4k"/>
+    <item
+        android:id="@+id/cloud"
+        android:title="@string/cloud"
+        android:icon="@drawable/ic_cloud"/>
+</menu>

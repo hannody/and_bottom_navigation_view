@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BottomNavigationView</string>
+    <string name="your_games">Your Games</string>
+    <string name="hd_games">HD Games</string>
+    <string name="_4k_games">4K Games</string>
+    <string name="cloud">Cloud</string>
+    <string name="first_fragment">Your Games</string>
+    <string name="second_fragment">Crystal Full HD Games</string>
+    <string name="third_fragment">Blazing 4K Games</string>
+    <string name="forth_fragment">More Games </string>
 </resources>
